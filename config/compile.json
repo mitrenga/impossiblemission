@@ -1,0 +1,26 @@
+{
+ "standalone": [
+  "gameWorker.js",
+  "fortressGen.js",
+  "fortressMap.js",
+  "roomBuild.js",
+  "roomsLoader.js",
+  "elevator.js",
+  "shaftBuild.js",
+  "transition.js",
+  "roomLift.js",
+  "furniture.js",
+  "terminal.js",
+  "pocketComputer.js",
+  "codeRoom.js",
+  "controlRoom.js",
+  "robots.js",
+  "orb.js",
+  "collision.js",
+  "death.js",
+  "endGame.js",
+  "sound.js",
+  "speech.js",
+  "player.js"
+ ]
+}

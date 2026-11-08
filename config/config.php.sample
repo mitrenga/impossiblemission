@@ -1,0 +1,7 @@
+<?php
+// copy to config.php; $devMode = true serves app/ directly, without a build
+$devMode = true;
+$appName = 'impossiblemission';
+$appTitle = 'Impossible Mission';
+// the project is internal (ZADANI.md §0): no public deployment, no hall of fame
+$dbHost = ''; $dbName = ''; $dbUser = ''; $dbPassword = '';
