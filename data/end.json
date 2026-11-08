@@ -1,0 +1,1023 @@
+{
+ "source": "statick\u00e1 data origin\u00e1lu, obraz pam\u011bti z tools/unpack.py",
+ "note": "konec hry: $83EA, $B77C a s\u00ed\u0148 sl\u00e1vy $BBF7 (disasm_notes.md \u00a733)",
+ "charset": "\u0161achta ($4800), a = $71, mezera = $53 (\u00a714)",
+ "tables": [
+  {
+   "addr": "$B96D",
+   "length": 14,
+   "reader": "$B844",
+   "what": "sedm ukazatel\u016f na nadpisy",
+   "values": [
+    154,
+    184,
+    173,
+    184,
+    188,
+    184,
+    202,
+    184,
+    219,
+    184,
+    235,
+    184,
+    51,
+    185
+   ]
+  },
+  {
+   "addr": "$B97B",
+   "length": 7,
+   "reader": "$B84E",
+   "what": "d\u00e9lky nadpis\u016f, o jednu men\u0161\u00ed (BPL)",
+   "values": [
+    18,
+    14,
+    13,
+    16,
+    15,
+    20,
+    22
+   ]
+  },
+  {
+   "addr": "$B982",
+   "length": 7,
+   "reader": "$B85C",
+   "what": "o kolik \u0159\u00e1dk\u016f se po nadpisu jde d\u00e1l",
+   "values": [
+    0,
+    0,
+    2,
+    0,
+    2,
+    2,
+    5
+   ]
+  },
+  {
+   "addr": "$B9A0",
+   "length": 10,
+   "reader": "$B994",
+   "what": "znaky roh\u016f horn\u00edho r\u00e1me\u010dku",
+   "values": [
+    200,
+    201,
+    203,
+    204,
+    218,
+    218,
+    218,
+    218,
+    218,
+    218
+   ]
+  },
+  {
+   "addr": "$B9AA",
+   "length": 10,
+   "reader": "$B997",
+   "what": "jejich offsety; prvn\u00ed \u010dty\u0159i \u010dte i $B9C4",
+   "values": [
+    0,
+    1,
+    38,
+    39,
+    4,
+    6,
+    8,
+    35,
+    33,
+    31
+   ]
+  },
+  {
+   "addr": "$B9B4",
+   "length": 14,
+   "reader": "$B9E4",
+   "what": "offsety znak\u016f spodn\u00edho r\u00e1me\u010dku",
+   "values": [
+    0,
+    1,
+    38,
+    39,
+    44,
+    46,
+    48,
+    75,
+    73,
+    71,
+    40,
+    41,
+    78,
+    79
+   ]
+  },
+  {
+   "addr": "$B9D0",
+   "length": 4,
+   "reader": "$B9C4",
+   "what": "znaky prost\u0159edku r\u00e1me\u010dku",
+   "values": [
+    205,
+    216,
+    215,
+    208
+   ]
+  },
+  {
+   "addr": "$B9ED",
+   "length": 14,
+   "reader": "$B9E1",
+   "what": "znaky spodn\u00edho r\u00e1me\u010dku",
+   "values": [
+    205,
+    206,
+    207,
+    208,
+    212,
+    212,
+    212,
+    212,
+    212,
+    212,
+    209,
+    210,
+    213,
+    214
+   ]
+  },
+  {
+   "addr": "$BB7F",
+   "length": 13,
+   "reader": "$BB71",
+   "what": "maska rovnice n x 100 = n00",
+   "values": [
+    83,
+    83,
+    217,
+    83,
+    139,
+    139,
+    83,
+    150,
+    83,
+    83,
+    83,
+    139,
+    139
+   ]
+  },
+  {
+   "addr": "$BB8C",
+   "length": 13,
+   "reader": "$BB76",
+   "what": "barvy t\u00e9 masky",
+   "values": [
+    1,
+    1,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "addr": "$BAE7",
+   "length": 4,
+   "reader": "$BACD",
+   "what": "\u010d\u00edslice 1000 za dokon\u010denou misi",
+   "values": [
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "addr": "$BD80",
+   "length": 15,
+   "reader": "$BCF8",
+   "what": "offsety patn\u00e1cti \u0159\u00e1dk\u016f s\u00edn\u011b sl\u00e1vy",
+   "values": [
+    0,
+    40,
+    80,
+    120,
+    160,
+    12,
+    52,
+    92,
+    132,
+    172,
+    24,
+    64,
+    104,
+    144,
+    184
+   ]
+  },
+  {
+   "addr": "$BEF0",
+   "length": 64,
+   "reader": "$BEEC",
+   "what": "matice kl\u00e1vesnice -> screen code",
+   "values": [
+    1,
+    0,
+    1,
+    255,
+    255,
+    255,
+    255,
+    255,
+    142,
+    135,
+    113,
+    143,
+    138,
+    131,
+    117,
+    255,
+    144,
+    130,
+    116,
+    145,
+    115,
+    118,
+    132,
+    136,
+    146,
+    137,
+    119,
+    147,
+    114,
+    120,
+    133,
+    134,
+    148,
+    121,
+    122,
+    139,
+    125,
+    123,
+    127,
+    126,
+    255,
+    128,
+    124,
+    150,
+    254,
+    152,
+    255,
+    255,
+    255,
+    149,
+    255,
+    255,
+    255,
+    150,
+    255,
+    255,
+    140,
+    1,
+    255,
+    141,
+    253,
+    255,
+    129,
+    240
+   ]
+  }
+ ],
+ "labels": [
+  {
+   "name": "piecesFound",
+   "addr": "$B89A",
+   "length": 19,
+   "text": "puzzle pieces found",
+   "values": [
+    128,
+    133,
+    138,
+    138,
+    124,
+    117,
+    83,
+    128,
+    121,
+    117,
+    115,
+    117,
+    131,
+    83,
+    118,
+    127,
+    133,
+    126,
+    116
+   ],
+   "advance": 0
+  },
+  {
+   "name": "passwordsFound",
+   "addr": "$B8AD",
+   "length": 15,
+   "text": "passwords found",
+   "values": [
+    128,
+    113,
+    131,
+    131,
+    135,
+    127,
+    130,
+    116,
+    131,
+    83,
+    118,
+    127,
+    133,
+    126,
+    116
+   ],
+   "advance": 0
+  },
+  {
+   "name": "puzzlesSolved",
+   "addr": "$B8BC",
+   "length": 14,
+   "text": "puzzles solved",
+   "values": [
+    128,
+    133,
+    138,
+    138,
+    124,
+    117,
+    131,
+    83,
+    131,
+    127,
+    124,
+    134,
+    117,
+    116
+   ],
+   "advance": 2
+  },
+  {
+   "name": "secondsRemaining",
+   "addr": "$B8CA",
+   "length": 17,
+   "text": "seconds remaining",
+   "values": [
+    131,
+    117,
+    115,
+    127,
+    126,
+    116,
+    131,
+    83,
+    130,
+    117,
+    125,
+    113,
+    121,
+    126,
+    121,
+    126,
+    119
+   ],
+   "advance": 0
+  },
+  {
+   "name": "missionComplete",
+   "addr": "$B8DB",
+   "length": 16,
+   "text": "mission complete",
+   "values": [
+    125,
+    121,
+    131,
+    131,
+    121,
+    127,
+    126,
+    83,
+    115,
+    127,
+    125,
+    128,
+    124,
+    117,
+    132,
+    117
+   ],
+   "advance": 2
+  },
+  {
+   "name": "totalScore",
+   "addr": "$B8EB",
+   "length": 21,
+   "text": "t o t a l   s c o r e",
+   "values": [
+    132,
+    83,
+    127,
+    83,
+    132,
+    83,
+    113,
+    83,
+    124,
+    83,
+    83,
+    83,
+    131,
+    83,
+    115,
+    83,
+    127,
+    83,
+    130,
+    83,
+    117
+   ],
+   "advance": 2
+  },
+  {
+   "name": "hallOfFame",
+   "addr": "$B933",
+   "length": 23,
+   "text": "           hall of fame",
+   "values": [
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    120,
+    113,
+    124,
+    124,
+    83,
+    127,
+    118,
+    83,
+    118,
+    113,
+    125,
+    117
+   ],
+   "advance": 5
+  }
+ ],
+ "terminatedFor": 4,
+ "texts": [
+  {
+   "name": "missionTerminated",
+   "addr": "$B94A",
+   "length": 35,
+   "text": "m i s s i o n   t e r m i n a t e d",
+   "values": [
+    125,
+    83,
+    121,
+    83,
+    131,
+    83,
+    131,
+    83,
+    121,
+    83,
+    127,
+    83,
+    126,
+    83,
+    83,
+    83,
+    132,
+    83,
+    117,
+    83,
+    130,
+    83,
+    125,
+    83,
+    121,
+    83,
+    126,
+    83,
+    113,
+    83,
+    132,
+    83,
+    117,
+    83,
+    116
+   ]
+  },
+  {
+   "name": "surpass0",
+   "addr": "$B900",
+   "length": 29,
+   "text": "  this surpasses the previous",
+   "values": [
+    83,
+    83,
+    132,
+    120,
+    121,
+    131,
+    83,
+    131,
+    133,
+    130,
+    128,
+    113,
+    131,
+    131,
+    117,
+    131,
+    83,
+    132,
+    120,
+    117,
+    83,
+    128,
+    130,
+    117,
+    134,
+    121,
+    127,
+    133,
+    131
+   ]
+  },
+  {
+   "name": "surpass1",
+   "addr": "$B91D",
+   "length": 29,
+   "text": "  high score of      .       ",
+   "values": [
+    83,
+    83,
+    120,
+    121,
+    119,
+    120,
+    83,
+    131,
+    115,
+    127,
+    130,
+    117,
+    83,
+    127,
+    118,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    254,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83,
+    83
+   ]
+  },
+  {
+   "name": "hitRestore",
+   "addr": "$BDB3",
+   "length": 36,
+   "text": "hit restore or run/stop for new game",
+   "values": [
+    120,
+    121,
+    132,
+    83,
+    130,
+    117,
+    131,
+    132,
+    127,
+    130,
+    117,
+    83,
+    127,
+    130,
+    83,
+    130,
+    133,
+    126,
+    221,
+    131,
+    132,
+    127,
+    128,
+    83,
+    118,
+    127,
+    130,
+    83,
+    126,
+    117,
+    135,
+    83,
+    119,
+    113,
+    125,
+    117
+   ]
+  },
+  {
+   "name": "enterName",
+   "addr": "$BD8F",
+   "length": 36,
+   "text": "enter your i.d. code on the keyboard",
+   "values": [
+    117,
+    126,
+    132,
+    117,
+    130,
+    83,
+    137,
+    127,
+    133,
+    130,
+    83,
+    121,
+    254,
+    116,
+    254,
+    83,
+    115,
+    127,
+    116,
+    117,
+    83,
+    127,
+    126,
+    83,
+    132,
+    120,
+    117,
+    83,
+    123,
+    117,
+    137,
+    114,
+    127,
+    113,
+    130,
+    116
+   ]
+  },
+  {
+   "name": "promptColors",
+   "addr": "$BDD7",
+   "length": 36,
+   "text": null,
+   "values": [
+    5,
+    5,
+    5,
+    5,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    5,
+    5,
+    5,
+    5,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    7,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+   ]
+  }
+ ],
+ "layout": {
+  "frameTop": "$4000",
+  "labels": "$42D2",
+  "labelColors": "$DAD2",
+  "score": "$4040",
+  "scoreColors": "$D840",
+  "surpass": "$420A",
+  "surpassScore": "$423A",
+  "fame": "$42F9",
+  "prompt": "$42AA",
+  "promptColors": "$DAAA"
+ },
+ "screen": "$4000",
+ "shake": {
+  "rounds": 128,
+  "draws": 3
+ },
+ "dissolve": {
+  "rounds": 128,
+  "pages": 4,
+  "top": 67,
+  "bottom": 64,
+  "fill": 82,
+  "blank": 83,
+  "color": 9
+ },
+ "score": {
+  "at": "$00D9",
+  "bytes": 3,
+  "piece": 1,
+  "password": 1,
+  "puzzle": 5,
+  "mission": 16,
+  "note": "p\u0159i\u010d\u00edt\u00e1 se do $DA, tedy do stovek \u2014 100/100/500/1000"
+ },
+ "speech": {
+  "timeUp": 5,
+  "gameOver": 0,
+  "controlRoom": 4
+ },
+ "fame": {
+  "at": "$CF00",
+  "entries": 15,
+  "stride": 8,
+  "nameAt": 3,
+  "nameLength": 5,
+  "blank": 220,
+  "spill": "$CF80",
+  "spillLength": 107,
+  "empty": [
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   },
+   {
+    "score": [
+     0,
+     0,
+     0
+    ],
+    "name": [
+     220,
+     220,
+     220,
+     220,
+     220
+    ]
+   }
+  ]
+ },
+ "keys": {
+  "restore": 240,
+  "nothing": 255,
+  "ret": 0,
+  "delete": 1
+ },
+ "restart": "$38D2",
+ "entries": [
+  {
+   "addr": "$84BF",
+   "what": "vypr\u0161el \u010das"
+  },
+  {
+   "addr": "$AB64",
+   "what": "\u0159\u00eddic\u00ed m\u00edstnost"
+  }
+ ],
+ "checks": 70,
+ "diffs": 0
+}

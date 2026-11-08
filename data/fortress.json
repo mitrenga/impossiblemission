@@ -1,0 +1,196 @@
+{
+ "note": "vstupy losování pevnosti z paměti originálu (tools/dumpfortress.mjs)",
+ "from": "build/fortress/m42_p0.bin",
+ "state": [
+  {
+   "at": 235,
+   "byte": 134
+  },
+  {
+   "at": 236,
+   "byte": 134
+  }
+ ],
+ "segments": [
+  {
+   "at": 3787,
+   "length": 14,
+   "bytes": "AAwJABIFABgLAAYJ//8="
+  },
+  {
+   "at": 3893,
+   "length": 5,
+   "bytes": "AAwK/x4="
+  },
+  {
+   "at": 4058,
+   "length": 14,
+   "bytes": "AAwIABIUABgIABgU//8="
+  },
+  {
+   "at": 4213,
+   "length": 8,
+   "bytes": "ABUcABgT/yQ="
+  },
+  {
+   "at": 4306,
+   "length": 14,
+   "bytes": "AAYLAAwWABIFABId//8="
+  },
+  {
+   "at": 4426,
+   "length": 5,
+   "bytes": "ABgD/x4="
+  },
+  {
+   "at": 4498,
+   "length": 14,
+   "bytes": "AAYZAAweABIGABgF//8="
+  },
+  {
+   "at": 4611,
+   "length": 11,
+   "bytes": "AAYPAAwdABId//8="
+  },
+  {
+   "at": 4719,
+   "length": 14,
+   "bytes": "AAweAA8SABIFAAkJ//8="
+  },
+  {
+   "at": 4829,
+   "length": 14,
+   "bytes": "AAwCAAwhABITABgP//8="
+  },
+  {
+   "at": 4936,
+   "length": 5,
+   "bytes": "AAwT//8="
+  },
+  {
+   "at": 5042,
+   "length": 11,
+   "bytes": "AAYiABIbABgg//8="
+  },
+  {
+   "at": 5162,
+   "length": 11,
+   "bytes": "AAwGABIHABId//8="
+  },
+  {
+   "at": 5280,
+   "length": 8,
+   "bytes": "AAwQABIQ//8="
+  },
+  {
+   "at": 5377,
+   "length": 14,
+   "bytes": "AAYQAAwKABIZABgP//8="
+  },
+  {
+   "at": 5489,
+   "length": 14,
+   "bytes": "AAYIAAwcABIRABga//8="
+  },
+  {
+   "at": 5634,
+   "length": 11,
+   "bytes": "AAYgAAwfABIe//8="
+  },
+  {
+   "at": 5757,
+   "length": 14,
+   "bytes": "AAwbABIJABIbABgJ//8="
+  },
+  {
+   "at": 5884,
+   "length": 14,
+   "bytes": "AAUJABIRAAwUAA8i//8="
+  },
+  {
+   "at": 5981,
+   "length": 14,
+   "bytes": "AAYiAAwZABIPABgU//8="
+  },
+  {
+   "at": 6085,
+   "length": 2,
+   "bytes": "/x4="
+  },
+  {
+   "at": 6222,
+   "length": 8,
+   "bytes": "AAwUABIO/x4="
+  },
+  {
+   "at": 6341,
+   "length": 14,
+   "bytes": "AAgTAA0TABMTABgT//8="
+  },
+  {
+   "at": 6477,
+   "length": 11,
+   "bytes": "AAwcABIDABgJ/wA="
+  },
+  {
+   "at": 6598,
+   "length": 11,
+   "bytes": "AAwUABIUABgP//8="
+  },
+  {
+   "at": 6716,
+   "length": 14,
+   "bytes": "AAYUAAwRABIbABgb//8="
+  },
+  {
+   "at": 6840,
+   "length": 14,
+   "bytes": "AAYfAAwGABIXABgP//8="
+  },
+  {
+   "at": 6959,
+   "length": 14,
+   "bytes": "AAYSAAwcABIIABgS//8="
+  },
+  {
+   "at": 7059,
+   "length": 11,
+   "bytes": "AAYKAAkeABMY//8="
+  },
+  {
+   "at": 7145,
+   "length": 11,
+   "bytes": "AAwKABgKABIg//8="
+  },
+  {
+   "at": 7524,
+   "length": 690,
+   "bytes": "GAEBAAYG/xgkAgAG//8MAQECBgb/DyQAAAb/GBMBAAMDAwMD//8MBAECBgb/EgoBAQYG/xgQAQAGBv8MFgECBgb/EhwCAQb//wYBAAMGBgb//xgTAAAG/xIBAQAG/xIkAQAG//8GEAADBgYG/xgUAAAGBgb//xgEAAAGDP8GEAABDP8YIQAABgYG//8YAQAABv8SDgAAA/8PGgACBgMDAwP//wYSAAEG/xIJAQEG/xIdAQEG//8YBAAABv8SDwIBBv8YFQEABv8MJAAABv//DgEAAAr/GBEBAAYG/xgUAQAG/xIkAQEG/xgDAAAF//8MAQAABv8SJAAABv8YAQAABv//BgUAAgYG/xICAAEG/wYiAAMGBgb/DxcAAQb//xgBAgAG/xgSAgAG/xgkAgAG//8YAQEABv8YCwEABv8SFQEABv8SHwEABv//GBMAAAYD//8MFAEBBv8MHwEBBv8SBQABBv8SCgABBv8SDwABBv//FQEAAAYF//8GJAABBv8MCAABBv8MEwABBv8MHQABBv//BhIAAwYGBv//DAQBAgYG/xIKAQEGBv8YEAEABgb/GBYBAAYG/xIdAQEGBv//GAYAAAUG/woDAAED/xgfAAAFBv//DAoBAQb/Eg8BAAb/DBQBAQb/GBkAAAb//xIkAAAG/xgDAAAS/xgHAAAS/xgLAAAS//8MCgAABv8MGwAABv8SAQAABv8SJAAABv8YEgAABv//DBUAAAb/DBoAAAb/EgsAAAb/EhAAAAb/GAEAAAb/GAYAAAb//wwBAQIGBv8YJAIABv//GAEAAAgK/wYPAAES//8YAQAABgYG/xgkAAAGBv//3g5BD+0PhBDlEKURExKCEvASUhPCEzoUrRQUFYQVEhaQFg8XcBfOF10Y2BhfGdYZTxrLGkIboxv5G///"
+  },
+  {
+   "at": 8334,
+   "length": 132,
+   "bytes": "eHx0d2lrbnhtZnh1ZndmbHp4Znd5bmhtdHBqaHd0aHRpbnFqZnFxbmxmeXR3ZnFnZnl3dHh4Z3p5eWp3a3F+aHR3cnR3ZnN5yw41D9oPdRDSEEoRkhEDEm8S3RJIE7ITKhSgFAEVcRUCFn0W/BZdF8UXThjFGE0Zxhk8GrgaLxuTG+kb"
+  },
+  {
+   "at": 8722,
+   "length": 32,
+   "bytes": "Bg9xdnkDfJORj1Du8PKfUAAEGRsdsbO1v93H0jCnBAQ="
+  },
+  {
+   "at": 9955,
+   "length": 128,
+   "bytes": "///P///z///////z////////////z////8///8/////////P///z/////8/////////z/8//////8////////////z//8/////8z////////8/////8////////z///////P////////////8//z///P/////8///8//8/////8="
+  },
+  {
+   "at": 12531,
+   "length": 256,
+   "bytes": "7w7zDvcO+w7/DgMPBw9gD2QPaA9sD3APdA8XEBsQHxAjECcQKxAvEDMQNxCUEJgQnBCgEPsQAxG9EcERxRHJEc0RzREsEjASNBI4EjwSnBKgEqQSChMOExITFhN2E3oT6RPtE/ET9RNUFFgUXBTMFNAU0BQqFS4VNhWgFaQVqBWsFbAVtBUdFiEWJRYpFi0WMRY1FrIWtha6Fr4WwhYaFx4XIhcmFyoXkBeUF5gX2hfeF+IX5hfqF+4XhBiIGIwY9Bj4GPwYABkEGX8ZgxmHGfYZ+hn+GQIaBhp1Gnka9xr7Gv8aAxsHGwsbWxtfG2MbZxu4G7wbwBsQHBQcGBwcHA=="
+  },
+  {
+   "at": 46483,
+   "length": 168,
+   "bytes": "5+fn5+fg5+f/AAAAAAD//+fn5+fnB+fn5+Dn5+fn5+f/AAAAAAD//+cH5+fn5+fn5+Dn5+fn5+f/AAAAAAD//+fn5+fnB+fn5+fn5+fg5+f/AAAAAAD//+cH5+fn5+fn5+Dn5+fn5+f/AAAAAAD//+fn5+fn4Ofn/wAAAAAA////AAAAAAD//+cH5+fn5+fn/wAAAAAA///n5+fn5wfn5+fn5+fn5+fn"
+  }
+ ]
+}

@@ -1,0 +1,387 @@
+{
+ "source": "IM.WORDS z origin\u00e1ln\u00ed diskety, obraz pam\u011bti z tools/unpack.py",
+ "note": "index, ne zvuk \u2014 dek\u00f3dov\u00e1n\u00ed vzork\u016f je M6 (sources/docs/disasm_notes.md \u00a718)",
+ "file": {
+  "name": "IM.WORDS",
+  "addr": "$E000-$F77F",
+  "bytes": 6016,
+  "underKernal": true,
+  "sha256": "ebb68c25067ec4fee25a44d133e9f1de4804e9853b18bc1e306408683c83557b",
+  "data": "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rakzY8xuVVXKmPEcDsfjcDx8PzyO4+NwOA/TpaW1paUtY3xXZXeGupm6fGZ3iFaXmdpsdnd3d4eZymx3d3d3h5m6bGZ2d3eImapsZlV1iJmZumx3ZlV1iJf8jGeIRnN5ZftMtZ40VXZ2+mzYjxJkl4jZjGWYZ0SWePp8ZneHd6iauWxVZnaHmJnKbGZmdoiImbpsZmZ2iJmZumxmZWaHmKnLfGaYJHV3l/uceKkUcpeZ+pwplElUhZr6jFeFZ0WUi/mMdmZlVpaZ/Ix3VlVll7r8fGdlZnaXutyMZlZ1d6iqynx3d3Z3Z3Z3d6ep2nyXd2aHV5d3ZLWp6XyIeGaHZ4dnZYaYynx3d2ZmZod3doeYynx3d2ZmZnd3d5iZunx3d2Zmdnd3h5iZunx3d2dmdod3h5iZunx3Z2ZmdoeHiJiZupO2xCmlLY2NZ2xOzZmkLS0zHo6Hx3E8jo3TcWY5q4czcc4xTiqL5+G9jDnOMZmmPHmLuYZjjkd5O2POmJnZso2dObaZOePMnGNmxpizMXOGMzNnjDFnnmFchVh0eLlY6FyHV2R4yVnnbFV2h3hWluxcZWZ3d2aX/Gxld3dWZpf8bGaGeVVmhvx8Z2V3RoSZ+nx4ZVdUZpjrfGhkZ1VlqPyMRmSZR1WF/Zx6M6dYZWT8fHdmdndWZYh4mJm6fHdmd2ZmZYeImYjKfHd3ZndWdoiIiJi6fHd3ZmZWdoiIiJiqfIeJiGdVdoiIZ4bKfHd3Z2Zmdoh3iIjKfHdnZmZmh4h3mJmprHhmZnaJp5uHiTREY6tV+3xml3mmjHWad1dkR2HORfpsmFa4Wcd6dolmVZky/Bj2fIdnuVinaYZ4V2O8I/ka9HyJZbpXt0iFeFd0qyP6KvWMiHioWJZYdXhWZKo06kr2jIiIiIhnh1d1V2SZdqmKuHx4iId4iIh4dldVh1XJaud8h4h3mIh3d3dnZYhE2Ur2bJd5dapnh4h3V3SJVNo492xml4mXqnlmqCdyi1Opecl8d3eIiJh4d3d3VlWmrDX4nIh3d3eIeGZnZnd3Znao23yImXhmdoiIZ2WHmWdFdfuMd3eIiHhml4lndoeZR1P7jHiXaWWYeIh4iGdEyHwy+YxohZpWqHmHeHZ4NaWMM/l8ZpeJd6iaZ4Z4dkaUvST3nGh2mJloZnaIaEVkuYtV2ZyIiHh3iGdVZmZ2h4iIiLqMiIiIiGeHeFZVVZerV3XrfFeFmoiqV6acJHSId2d163xohopmuliWqzZTdphoZftsh4hnl6t4h5lXQ2aXi0T5bHeYaKebeIeIVkR2qItE+Xx3mImZiXd3VkRliIh4dvuMiIh3d4d3ZmZmd3eHiKm6fGZmh5mqiXd3ZmZmZoapy3xnZoaZqZp3d3dmVVWGqdyceGZ2h5mJh3h3eGZFZKjsrHhWZYeIiIiIiHhWRHWY25x4ZmaHiIiIiIh4VkR1mMuMiHd3iJiId2Z3h3dmdpjKYz42x+HheLB5fDgP/OCHzVx2Z4aqmarbTGR3h5jLiupMdHeHmMqL6Vxkd3eIyor7XGR3dojKm+tMdWh1mbmr62x2eIeoqanrjFZlh4lmZ4dnZpfbjFZVdohnd3dnZpjbjGZmdndndnd3d5jbfHdndmdmdoh4h6nLfGdmZmZmdneIiKm6fGc0hhODaHaYqqrrbIkzdjREdXh1/Gv5fJg2hjRlVYhl7Fn5fHdmZ1VmZnd3qYnafIh3iIh5ZXd3Z4aIVmaX/Yx4h4iIZ1Z2eGZmh1d1qP2cmXiIiGdWZXdmZndXdan8jIiIiIh3VmV3d2Z2h4iZyoyIeHd3d2ZmZmZ2h4iYqbqciYh4d2ZmZmZmZneImamqnImId3dmZlZmZnZ3mJmpuoyIiHh3Z2ZmZmZ2h4iZmap8mImIZ3dmdoh4RXWIiHfrjIh3mHh3ZnZ3d3eIeFWG64yId5h4d2Z3d3dnhmhml+x8iIeId3d3d2d2d3dnZZf8jHiHmZh5ZohnRVSHd2ao7HyId5mYiVaGaGZVh1d1l/2ciHeIiGdml3hmRZdnVafsjHh3mYhmVoeIVneXWGWX63yHiIiYiXh3d2dFZXd3mPuMd4eImHmGiHdnRHZ3Zob8jHd3iIh4d4h3d1V3Z2aY63x3doiIeHaIiGdliGdml9uMh3iHd4d3d4d4Znd3h4faHY83ntEX8zkh88OH1TgYwyc+ahwNWXRRi5PFadnBZ7qHOtbF1E1y8I8bdoEDdnBYVXI8XbExN+eldpzGYXRa8dNhMccbnIUjk1nypA/bmJydyZiYHVmTJ5yZiXdmZWZ2h5iZmZyZiXdWVVV2iJmZmIyIeId4d1dVVXap24yZeHd3iGdWRHWo7IypmnhVh3d4NWSo7HypeYhGdXiHZ1WG/IyJhptWZzO5OIR4+qx6dZpmeSHZOJVo+WyZuEuBjkJnhZpF+Uyoqjmij0GIZodn2Wx3yExxvlVVhoo0+VyXmmlk7BeVVplE+ky6eGiUzjSGR4VX+WyIZql4qiS3N2V1/WyZd5pVaGWpN2OI+3x3d2dVdniYaIaIynyId3dFhniXSIR5+myneqdZhViWJ3OJ+1yFqqpIlHmXJ1GH/FyWiZlnh4mINkKX/FyGmZlohomINkKW/FyGiZlohpmINkKH+1yGmJlodoiJNkOW/Fx2mJp4doiINmOH+1yGmZpnd4eJRlSH61yHmZlndoiIRlSX23x3h4iIeId4ZXdmZoeJh8psd3eImImIiWZ3Z2aGmXfJbHd3iJiJl3lmd2ZWhZp3yXx3iHeYiYd4ZnZ3ZnapaNh8d4h4mIl3d2Z2d2Z2uVnnjHeYiYh4ZndmZmZ3drlq14yIiIh4d2d3VndmiGa5adiMiIiId3h2VmZ2Z4dnyVnYnImIiHd3ZmZmd2aId7hq15yJiIl3d2ZmVWZmiHe5esiciYh4h2hmVmZnZYl2qZm6jJl4iHd3ZmZmZmaId6mJyZyIiHiGaHVWdmd1iXapibmciYeId2dmZmZ2Zoh2uXnInIiJiHd4ZmZWdnZ4hqmJuIyIiHh3eHZnZnZndoiIiMmMmIlnRYaZqmh2d4hWVJbbjJh4Z1WHiJl4d4d4VlSX24yIeGdmhpiZeIeIeEZUl8uMiIhnZneYmXh2iIhWVJfLjIh4Z2aHiIh4d4h3VmWYuoyIeHdmh4iId4eIZ2Z2mLpsZlZ2mJl52XxmV3WImWf6jIdGVIapafmMh0dDZal5+nyHaDRTuHr5bIdoNFO5evl8d0cydbt4+nx1ZzRjunn6bFZlRmSpiPxsRXU1lJuX/GxWVDWDzGj7bIlFNIS8RvmsNjJUholm+mw0ZHhUh5jsbFVVVmWXquyMiHh3d3dnZnZ3dnd3mKq6fIeId3d3d3d3d2Z2d5iqunx3d4iYmYl4VlVEZWaYust8d2eHiKmJmHl3VlVEdbnsnHhmZYeYmYiId3dnRWSY64yJd1Zlh5mZeXaIeEZUluuceHd3ZnaHqopmdod3VnXrnHh3ZnZ4h5mZeGZmd2dl6px4Z3eHZ3apmmd2iHdmddqMeHd3d4eZiXd3d3dWZZfLfHeHiIiIiIiId2ZmZneYunx3h4iIiIiIeHdmVWaHmapsd4eIiIiIeHdnZmZ2iJm6fHdmZndndoiImZmpfHdmZnZndoiImZmpbHeYeGdVhploZXf6fIeqeFZUmIlXU4f8fJiJd1ZVh4hXZJj8bJiJeEVliIhXVKf9fJiZZ1Vlh5lHVJb9jJmJV1VVhohWVaf8nJmJVlRldmdVdrncjIh4VlV2d3dWdqjcjHd3ZmZ2d2dmh6nLjHdmVWZmd3eHmJmqjHdmZmZ2d3d3mJmpfHdmZnZ3d3d3iJmpfHd3d3d3d3d3iJmpbHd3Z3dmd5iIiIjKbGaXmWhEdbmKVpfbbFSGmXhVhqlYQ6b9fGZ3h3lVdploVKf9fGZmmHlldqlpQ5f8bGWGqmhFdblaQ5b9XHWpmldUhpk2Qrf/bJiZiUZUh5lGVKf9fIeZeFZldnhmZqjsfIeIeGZmZndmdqjbnJmIeGZWZWZmh6nLjIiId2Zmh4hmdpjKfIiId3aHiIhndoipjIiId3d3iIhndpipjIh3d3eHiIh3d5iqjHh3d3d3d3d3d5iqjIh3d3dnd2Z2Z3aIiJmZqoyIeHd4Zndmd2Z2iIiZmap8iIh3d3eIZ2ZVdoiId5jKnIh4ZXeXiXdnZYeJR1SX/JyIZ3V4l5qIRnSJiDYxp/2ceGZ2iKiaeDVkmKomQZf9jHhmh4iZiXhFZYiJRlOn/Zx4ZnaYmnhmVWaHiFZVp9x8d3eHmJmIZ2Zmd3dmdqjLjHh3h5iZeGZVZXd3d3eYuoyId4eIiHdndnd3d3d3mLqMiIiIeHd3Z3d3d3d3h5i6jIiIiHh3Z2Z3d3d3d4iZqY8H89GD8cED47nBx8PDx8PDw8fhAx/4wYx3h5l4ZnaYaFSH2oxnl6p5VmWpWUOG+3xnl6qJVnWoWFNm+pxHhZmrV2WoWVNm+pxHhZm6SGSoWFN2+4w1dMrNR0OXWXRn+ZwVg8u9VzSmamNn+YxXhamaRmWZaER1/HxGhaq7N2OZaGVl6ow1hLu8NlOoaXZW+Yw1hLq8NlOnanZW+Yx4d3eIZ3aoimd2iHhmdsmcd4d4d2d2qZpnZnaIZ3XKjHh3h3h2iJiJZ2aHeVZ2yoPDg9d0woNjH57npA0lYR/j5WHJYRuKw4yJd2d2d4eYmnd3d0ZTqOuMeHd3d2aHmJp3iHdGU6jarFeFiXYltom8d4lWRiCn/Yx4doeIZoeYmXhmdmhEhvuMiHd3h3h3l5l3ZodnZZe6bLpIpWhGdflsrGaGaEZ0+2zKW4NZNYT7XNlscllVhfpc2ntiaFaF+1ynvEZDmHf5bJipRodIg/x8mJpWd0eT/Gynq0V2WJT8bKirNXVYlPx8qYlmZjW1/GypmkR2SIT8bLlqZJdHdPt8mWlkdmeG+4yZeWVmZ3b6fLpoZXdWhtt8umlkd1aG63y6aVR3VoX7jKp5VWZnZfuMmXllZmd1+oyZeWZ2Z2X5fLlqRHd3ddp8uWpTeGZk+3ypeWOIZ3XqfKhpZHhXdet8qGpUiFd0+3yYeWZ3Z2X5fKh6VYdndfp8qIpVh1d16oyYilWHZ3X6fKh5ZXdXheqMqHpVd1Z1+4yoeWV3Z3XqjKh5VXdWhfuMqHlVd1Z1+4yYeWV3Z3bqjKh5VYdXdeuMqHlVd2d1+4ypaVV3ZnbqjKlpVXdmdup8qWlUd2d164y5aVR3ZnXrjLppU3dndeuMuWlUd1d1+3y6aVR3V3XrjKl5VXZndeuMqXlVdmd164yqeVV2V4XbfLppVXdWhet8umlVd1aF63y6aVV3VoXrjLppVXZWhet8umlUd1aF+4y6aVV2VoX8jLppVWZWhfyMumlUZlaF/Iy6aVRmVYb8jKppVFZVlvyMqmlUZlWF/IypaFVmVYX7jKloVGdVhvuMmGhlZ2aG2oyYaGV3Z3bKjJloVXZ3h7mMmWhmZnaHuYyIeGZ2d3e5jIh4Znd3d6mMiHh2d4d3qIyHiGd3d4eojIh4d3d3d6iMiHh3d4d4qIyIiGaHiHeYjIeIZ4d4d5h8iHh3d3h3qHyIiGeHd4eYfIiIZod4h5j//////////////////w=="
+ },
+ "table": {
+  "addr": "$E000",
+  "count": 8,
+  "entryBytes": 4,
+  "readBy": "$0CAB",
+  "base": "$E000",
+  "layout": "2 B ukazatel ob\u00e1lky, 2 B ukazatel skriptu; oba relativn\u011b k $E000"
+ },
+ "player": {
+  "irq": "NMI od \u010dasova\u010de B CIA2 ($DD06/$DD07 = $0064, $DD0D = $82)",
+  "timerLatch": 100,
+  "cyclesPerSample": 101,
+  "sampleRatePAL": 9754.9,
+  "samplesPerFramePAL": 194.6,
+  "output": "$0800 \u2014 LSR + STA $D418, tedy 4 bity hlasitosti SID",
+  "buffer": {
+   "addr": "$0800",
+   "halves": 2,
+   "halfBytes": [
+    32,
+    64
+   ],
+   "setBy": "$0CF8 z bitu 6 bajtu 0 z\u00e1znamu ($09FB)"
+  },
+  "setup": "$0C71 nastav\u00ed \u010dasova\u010d, $0C89 p\u0159ezbroj\u00ed dekod\u00e9r, vektor NMI je $FFFA",
+  "stop": "$08E1 \u2014 $DD0F = $90 (\u010dasova\u010d stoj\u00ed), $D418 = $07",
+  "entry": "$0880 (JMP $0C2F); ob\u00e1lka hry je $BF51, index v\u011bty jde v X",
+  "commands": {
+   "$FF": "dotaz, jestli \u0159e\u010d je\u0161t\u011b b\u011b\u017e\u00ed",
+   "$FE": "zastavit",
+   "$FD": "nastavit z\u00e1klad dat z X/Y"
+  }
+ },
+ "format": {
+  "script": "proud z\u00e1znam\u016f po 4 B: bajt 0 = po\u010ditadlo opakov\u00e1n\u00ed a velikost r\u00e1mce (bit 6), bajt 1 = druh\u00e9 po\u010ditadlo, bit 2 = \u0161um (bajty 2 a 3 pak nejsou ukazatel) a bity 0-1 = re\u017eim rozbalen\u00ed, bajty 2 a 3 = ukazatel na r\u00e1mec (+$E000, horn\u00ed bajt & $3F), **bit 7 bajtu 3 = konec v\u011bty**",
+  "envelope": "\u2605 **nen\u00ed to hlasitost, je to d\u00e9lka pauzy za r\u00e1mcem** ($0CF4 \u2192 $AF, f\u00e1ze $08C3/$08D9): dvojice bajt\u016f = v\u00fdchoz\u00ed hodnota (bajt 0 & $FE), po\u010det krok\u016f ($E0 | bit 0 bajtu 0 << 4 | bajt 1 >> 4) a p\u0159\u00edr\u016fstek z tabulky $0B63 (doln\u00ed nibble bajtu 1); krok d\u011bl\u00e1 $0B1D a hodnota jde do $0CF4 posunut\u00e1 o bit doprava. Perioda r\u00e1mce je tedy 2\u00b7d\u00e9lka + pauza, tedy **v\u00fd\u0161ka t\u00f3nu**",
+  "frames": {
+   "addr": "$E47E-$F77F",
+   "bytes": 4866,
+   "note": "\u2605 sd\u00edlen\u00e9 \u2014 m\u00ed\u0159\u00ed do nich ukazatele ze skript\u016f v\u0161ech v\u011bt, tak\u017ee bloky v\u011bt nejsou disjunktn\u00ed"
+  },
+  "unpackers": {
+   "$0A68": "re\u017eim 3 \u2014 dva bity na vzorek, 4 na bajt, z tabulky vybran\u00e9 bity 0-1 prvn\u00edho bajtu; hraje se z $0820/$0860 p\u0159es interpolaci",
+   "$0AE5": "re\u017eim 2 \u2014 \u010dty\u0159i bity na vzorek, 2 na bajt (nibble \u00d7 2); hraje se p\u0159es interpolaci",
+   "$0B73": "re\u017eim 1 \u2014 **jeden bit** na vzorek, 8 na bajt, $0E nebo $10; hraje se p\u0159\u00edmo z $0800/$0840",
+   "$0BE3": "re\u017eim 0 \u2014 dva bity na vzorek jako $0A68, ale tabulka je vynucen\u00e1 na prvn\u00ed ($0BF6 AND #$FC ORA #$01) a hraje se p\u0159\u00edmo"
+  },
+  "phases": {
+   "$0883": "A \u2014 vzorky dop\u0159edu, $AD jich",
+   "$08A4": "B \u2014 **tyt\u00e9\u017e vzorky pozp\u00e1tku**, $AE jich",
+   "$08C3": "C \u2014 jednou $07 (ticho), a pak",
+   "$08D9": "D \u2014 $AF-1 sn\u00edmk\u016f **beze z\u00e1pisu**: hladina dr\u017e\u00ed",
+   "$08E1": "konec \u2014 \u010dasova\u010d stoj\u00ed, $D418 = $07",
+   "$08F2": "dopln\u011bn\u00ed \u2014 nov\u00fd r\u00e1mec nebo dal\u0161\u00ed opakov\u00e1n\u00ed"
+  },
+  "buffers": {
+   "$0800": "rozbalen\u00fd r\u00e1mec, p\u016flka A",
+   "$0840": "rozbalen\u00fd r\u00e1mec, p\u016flka B",
+   "$0820": "interpolovan\u00fd r\u00e1mec, p\u016flka A (re\u017eimy 2 a 3)",
+   "$0860": "interpolovan\u00fd r\u00e1mec, p\u016flka B"
+  }
+ },
+ "driver": {
+  "amplitudes": {
+   "addr": "$0AD5",
+   "bytes": 16,
+   "data": "ANC6YAwOEBIIDBAUAgoSGg==",
+   "note": "\u2605 \u010dty\u0159i tabulky po 4 B, index z bit\u016f 0-1 prvn\u00edho bajtu r\u00e1mce ($0A78) \u2014 a ta nult\u00e1 jsou bajty k\u00f3du $0AD4-$0AD8, jejich\u017e prvn\u00ed si rozbalova\u010d p\u0159episuje na konec okna"
+  },
+  "steps": {
+   "addr": "$0B63",
+   "bytes": 16,
+   "data": "9Pb4+vz+/wABAgQGCAoMDg==",
+   "note": "p\u0159\u00edr\u016fstky obrysu, se znam\u00e9nkem: $F4\u2026$0E ($0B4F)"
+  },
+  "pads": {
+   "addr": "$0A47",
+   "bytes": 4,
+   "data": "CBAYIA==",
+   "note": "d\u00e9lky r\u00e1mce re\u017eim\u016f 2 a 3 z bit\u016f 6-7 bajtu 0 ($0A2E)"
+  },
+  "defaults": {
+   "addr": "$0CF1",
+   "bytes": 15,
+   "data": "gwBAAPr//0AIAP8kAgDg",
+   "note": "stav ovlada\u010de po nahr\u00e1n\u00ed; $0CFE/$0CFF je z\u00e1klad dat ($E000)"
+  },
+  "handlers": {
+   "$097B": "konec v\u011bty \u2014 $0CF1 = $E1",
+   "$0981": "pauza \u2014 $0CF1 = $C3 (f\u00e1ze n\u00e1b\u011bhu) a $0CF4 = $80",
+   "$098C": "re\u017eim 1 \u2014 jeden bit na vzorek, hraje se p\u0159\u00edmo ($0B73)",
+   "$098F": "re\u017eim 0 \u2014 dva bity na vzorek, hraje se p\u0159\u00edmo ($0BE3)",
+   "$0992": "re\u017eim 3 \u2014 dva bity na vzorek, interpoluje se ($0A68)",
+   "$0998": "re\u017eim 2 \u2014 \u010dty\u0159i bity na vzorek, interpoluje se ($0AE5)"
+  },
+  "afters": {
+   "$0937": "nic (PLA, RTI)",
+   "$0939": "interpolace $0BFD a krok obrysu $0B1D",
+   "$0951": "zkr\u00e1cen\u00ed okna o $0CF9, a po $10 zase cel\u00e9"
+  }
+ },
+ "notCalled": [
+  6
+ ],
+ "words": [
+  {
+   "index": 0,
+   "envelope": {
+    "addr": "$E020",
+    "bytes": 136,
+    "pairs": 68
+   },
+   "script": {
+    "addr": "$E2A6",
+    "bytes": 116,
+    "records": 29,
+    "end": "$E319"
+   },
+   "frames": {
+    "count": 22,
+    "first": "$E47E",
+    "last": "$E7EA",
+    "sizes": [
+     32,
+     64
+    ],
+    "modes": [
+     0,
+     1,
+     2
+    ]
+   },
+   "calledFrom": [
+    {
+     "addr": "$B86E",
+     "when": "konec hry \u2014 hodina $D4 **nen\u00ed** 6 (tedy ne vypr\u0161en\u00fd \u010das)"
+    }
+   ],
+   "sha256": "2bf14078b553b76a3144eface604deda34ad7bb3b4ea200e95c88aa4a3330f86"
+  },
+  {
+   "index": 1,
+   "envelope": {
+    "addr": "$E0A8",
+    "bytes": 42,
+    "pairs": 21
+   },
+   "script": {
+    "addr": "$E31A",
+    "bytes": 68,
+    "records": 17,
+    "end": "$E35D"
+   },
+   "frames": {
+    "count": 14,
+    "first": "$E66A",
+    "last": "$EB4E",
+    "sizes": [
+     32,
+     64
+    ],
+    "modes": [
+     0,
+     1,
+     2
+    ]
+   },
+   "calledFrom": [
+    {
+     "addr": "$8BC8",
+     "when": "hern\u00ed smy\u010dka \u2014 p\u0159\u00edznak $C1 je nenulov\u00fd a stav agenta nen\u00ed $11, $1B, $14 ani $07; $C1 se p\u0159itom nuluje"
+    }
+   ],
+   "sha256": "4647a32af98f809a59a487942c593c01df93a92a39d9247f6b9404488710e7a5"
+  },
+  {
+   "index": 2,
+   "envelope": {
+    "addr": "$E0D2",
+    "bytes": 32,
+    "pairs": 16
+   },
+   "script": {
+    "addr": "$E35E",
+    "bytes": 52,
+    "records": 13,
+    "end": "$E391"
+   },
+   "frames": {
+    "count": 12,
+    "first": "$E66A",
+    "last": "$ED62",
+    "sizes": [
+     32,
+     64
+    ],
+    "modes": [
+     0,
+     1,
+     2
+    ]
+   },
+   "calledFrom": [
+    {
+     "addr": "$39F4",
+     "when": "rozb\u011bh hry \u2014 hned po gener\u00e1toru pevnosti ($7236) a po zapnut\u00ed sprajt\u016f ($D015 = $CF)"
+    }
+   ],
+   "sha256": "7323fa63d8405f928d7b352d7f0c99032598ea15287b61fc2b6510883ebdc61e"
+  },
+  {
+   "index": 3,
+   "envelope": {
+    "addr": "$E0F2",
+    "bytes": 66,
+    "pairs": 33
+   },
+   "script": {
+    "addr": "$E392",
+    "bytes": 52,
+    "records": 13,
+    "end": "$E3C5"
+   },
+   "frames": {
+    "count": 10,
+    "first": "$E66A",
+    "last": "$F0CA",
+    "sizes": [
+     32,
+     64
+    ],
+    "modes": [
+     0,
+     1,
+     2
+    ]
+   },
+   "calledFrom": [
+    {
+     "addr": "$39FF",
+     "when": "rozb\u011bh hry \u2014 druh\u00e1 v\u011bta hned za prvn\u00ed, mezi nimi $7F6D"
+    }
+   ],
+   "sha256": "b34bc4e551e7e4e5dbb468d6c28291228d518a6731a63309028e4baa7642e15a"
+  },
+  {
+   "index": 4,
+   "envelope": {
+    "addr": "$E134",
+    "bytes": 32,
+    "pairs": 16
+   },
+   "script": {
+    "addr": "$E3C6",
+    "bytes": 32,
+    "records": 8,
+    "end": "$E3E5"
+   },
+   "frames": {
+    "count": 6,
+    "first": "$F19A",
+    "last": "$F32E",
+    "sizes": [
+     32,
+     64
+    ],
+    "modes": [
+     0,
+     2
+    ]
+   },
+   "calledFrom": [
+    {
+     "addr": "$AB23",
+     "when": "p\u0159ep\u00edn\u00e1n\u00ed obrazu ($71FB dvakr\u00e1t, $01 = $25)"
+    }
+   ],
+   "sha256": "dee9ffa874e20d494cad4e79a5a233d7980c9654e73bdf0b0be761c927dc5f66"
+  },
+  {
+   "index": 5,
+   "envelope": {
+    "addr": "$E154",
+    "bytes": 52,
+    "pairs": 26
+   },
+   "script": {
+    "addr": "$E3E6",
+    "bytes": 136,
+    "records": 34,
+    "end": "$E46D"
+   },
+   "frames": {
+    "count": 22,
+    "first": "$E882",
+    "last": "$F47A",
+    "sizes": [
+     32,
+     64
+    ],
+    "modes": [
+     0,
+     1,
+     2
+    ]
+   },
+   "calledFrom": [
+    {
+     "addr": "$8407",
+     "when": "SEI, $D020 = $01 \u2014 smy\u010dka blik\u00e1n\u00ed obrazovky"
+    }
+   ],
+   "sha256": "059476818cebab129133409f1037a9f3ae0fc2535b078d0db022cda6d2a29b1a"
+  },
+  {
+   "index": 6,
+   "envelope": {
+    "addr": "$E188",
+    "bytes": 2,
+    "pairs": 1
+   },
+   "script": {
+    "addr": "$E46E",
+    "bytes": 8,
+    "records": 2,
+    "end": "$E475"
+   },
+   "frames": {
+    "count": 2,
+    "first": "$F4AA",
+    "last": "$F4C2",
+    "sizes": [
+     64
+    ],
+    "modes": [
+     1,
+     2
+    ]
+   },
+   "calledFrom": [],
+   "sha256": "3f94993d475e17c5a4f2e75311eeebaaf25276db28648d9f6b3ea4761ec0b0d9"
+  },
+  {
+   "index": 7,
+   "envelope": {
+    "addr": "$E18A",
+    "bytes": 284,
+    "pairs": 142
+   },
+   "script": {
+    "addr": "$E476",
+    "bytes": 8,
+    "records": 2,
+    "end": "$E47D"
+   },
+   "frames": {
+    "count": 2,
+    "first": "$F512",
+    "last": "$F712",
+    "sizes": [
+     64
+    ],
+    "modes": [
+     2
+    ]
+   },
+   "calledFrom": [
+    {
+     "addr": "$9605",
+     "when": "ticho na v\u0161ech t\u0159ech hlasech SID a $43 = $02; sprajty 1-3 se vypnou ($D015 &= $F1)"
+    }
+   ],
+   "sha256": "71b72f1e534838e066c174653a2129b9aed2f61b2a09855d5b72da0cf16612d6"
+  }
+ ]
+}
