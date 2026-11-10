@@ -81,14 +81,6 @@ export class MainApp extends AbstractApp {
     this.fonts.c64Fonts8x8 = new C64Fonts8x8(this, false);
     /** the library's small font, for the titles of the panels the remake adds */
     this.fonts.fonts5x5 = new Fonts5x5(this);
-    // ★ The banner of a developer build is `◢◤ ◢◤ … DEVELOPER MODE … ◢◤ ◢◤`
-    // (`svision/php/appPage.php`), and the library's core font is ASCII only
-    // — without these two triangles the stripes around the text are missing.
-    // The same pair the siblings add (`boulderdash/app/gameApp.js`).
-    this.fonts.fonts5x5.addGlyphs({
-      '◢': {width: 4, data: [[4,0,1,1], [3,1,2,1], [2,2,3,1], [1,3,4,1], [0,4,5,1]]},
-      '◤': {width: 4, data: [[0,0,5,1], [0,1,4,1], [0,2,3,1], [0,3,2,1], [0,4,1,1]]}
-    });
 
     this.controls = {
       keyboard: {},
